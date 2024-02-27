@@ -7,7 +7,7 @@ setwd("G:/My Drive/INCH Projects/[2023] Apple Watch Study")
 
 
 df <- read.csv("clean_step_count_2-13-24.csv")
-# qual <- read.csv("clean_baseline_qualtrics.csv")
+qual <- read.csv("clean_baseline_qualtrics.csv")
 
 
 df$date <- as.Date(df$date)
